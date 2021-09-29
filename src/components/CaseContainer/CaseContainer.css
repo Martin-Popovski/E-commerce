@@ -1,0 +1,17 @@
+.case-container {
+  display: grid;
+  grid-template-columns: 49% 49%;
+  grid-gap: 2%;
+  margin-bottom: 80px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 767px) {
+  .case-container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: unset;
+    margin-bottom: 20px;
+  }
+}

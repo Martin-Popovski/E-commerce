@@ -1,0 +1,39 @@
+.filters {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 30px;
+}
+
+.filters__text {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.07;
+  color: var(--greyish-color);
+}
+
+.filters__select {
+  border: none;
+  font-size: 30px;
+  font-weight: bold;
+  outline: none;
+  margin-top: -7px;
+  width: 100px;
+  font-family: "Teko";
+  cursor: pointer;
+}
+
+.filters__wrapper {
+  margin-bottom: 10px;
+}
+
+.filters__select--long {
+  width: 150px;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 767px) {
+  .filters {
+    padding: 100px 0px 10px 0px;
+    flex-direction: column;
+  }
+}

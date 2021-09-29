@@ -1,0 +1,40 @@
+{
+    "navigationLinks": [
+      {
+        "text": "Home",
+        "link": "https://www.google.com/"
+      },
+      {
+        "text": "Werk",
+        "link": "https://www.google.com/"
+      },
+      {
+        "text": "Over",
+        "link": "https://www.google.com/"
+      },
+      {
+        "text": "Diensten",
+        "link": "https://www.google.com/"
+      },
+      {
+        "text": "Partners",
+        "link": "https://www.google.com/"
+      },
+      {
+        "text": "Stories",
+        "link": "https://www.google.com/"
+      },
+      {
+        "text": "Vacatures",
+        "link": "https://www.google.com/"
+      },
+      {
+        "text": "Events",
+        "link": "https://www.google.com/"
+      },
+      {
+        "text": "Contact",
+        "link": "https://www.google.com/"
+      }
+    ]
+}

@@ -1,0 +1,72 @@
+.hero {
+  width: 100%;
+  height: 940px;
+  position: relative;
+  background-image: url("../../assets/images/Header.jpg");
+  background-size: cover;
+}
+
+.hero__title {
+  position: absolute;
+  margin: 0px;
+  top: 160px;
+  left: 150px;
+  font-size: 400px;
+  line-height: 1;
+}
+
+.hero__button {
+  position: absolute;
+  margin: 0px;
+  bottom: 100px;
+  right: 150px;
+  transition: 0.5s;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1300px) {
+  .hero__title {
+    left: 50px;
+  }
+
+  .hero__button {
+    right: 50px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .hero__title {
+    font-size: 50vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero__title {
+    left: unset;
+    top: 70px;
+    position: relative;
+    text-align: center;
+    font-size: 40vw;
+    width: 100%;
+    font-weight: 400;
+  }
+
+  .hero__button {
+    position: absolute;
+    bottom: -70px;
+    right: unset;
+    width: calc(100% - 40px);
+  }
+
+  .hero__button .btn {
+    width: 100%;
+  }
+}

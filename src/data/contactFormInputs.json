@@ -1,0 +1,25 @@
+{
+  "contactFormInputs": [
+    {
+      "inputtype": "input",
+      "type": "text",
+      "label": "Name",
+      "name": "name",
+      "required": true
+    },
+    {
+      "inputtype": "input",
+      "type": "email",
+      "label": "Email",
+      "name": "email",
+      "required": true
+    },
+    {
+      "inputtype": "textArea",
+      "label": "Message",
+      "name": "message",
+      "rows": 3,
+      "required": true
+    }
+  ]
+}

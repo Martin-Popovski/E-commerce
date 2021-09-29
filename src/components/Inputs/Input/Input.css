@@ -1,0 +1,41 @@
+.input-wrapper {
+  margin-bottom: 30px;
+  margin-right: 50px;
+  display: inline-block;
+}
+
+.textarea-wrapper {
+  display: block;
+}
+
+.input-wrapper label {
+  display: block;
+  cursor: pointer;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 2;
+  text-transform: uppercase;
+}
+
+.input {
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid var(--light-grey-color);
+  outline: none;
+}
+
+.input:focus {
+  border-bottom: 1px solid var(--blue-color);
+}
+
+@media screen and (max-width: 767px) {
+  .input-wrapper {
+    display: block;
+    margin-right: 0px;
+  }
+
+  .input {
+    width: 100%;
+  }
+}
